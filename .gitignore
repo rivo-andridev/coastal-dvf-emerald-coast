@@ -1,5 +1,36 @@
-# Environnement virtuel Python
+# =========================================================
+# ENVIRONNEMENT VIRTUEL PYTHON
+# =========================================================
+
+# Ignore l'environnement Python créé pour le projet.
+# Il est propre à chaque ordinateur.
 .venv/
 
-# Données brutes DVF
+
+# =========================================================
+# FICHIERS TEMPORAIRES PYTHON
+# =========================================================
+
+# Ignore les dossiers contenant du bytecode Python.
+__pycache__/
+
+# Ignore les fichiers Python compilés.
+*.pyc
+
+
+# =========================================================
+# DONNÉES DVF BRUTES
+# =========================================================
+
+# Ignore les données originales téléchargées.
+# Elles peuvent être très volumineuses.
 data/raw/
+
+
+# =========================================================
+# FICHIERS GÉNÉRÉS
+# =========================================================
+
+# Ignore la carte HTML créée automatiquement
+# par le programme mapping.py.
+data/processed/carte_dvf.html
